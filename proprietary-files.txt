@@ -1,0 +1,62 @@
+# Bluetooth
+lib/libbt-vendor.so
+lib/libbluetoothem_mtk.so
+lib/libbluetooth_mtk.so
+lib/libbluetooth_hw_test.so
+lib/libbluetooth_mtk_pure.so
+lib/libbluetooth_relayer.so
+
+# Camera
+lib/hw/camera.default.so:lib/hw/camera.mt8135.so
+lib/libJpgEncPipe.so
+lib/lib3a.so
+lib/libcamalgo.so
+lib/libcam.camadapter.so
+lib/libcam.campipe.so
+lib/libcam.camshot.so
+lib/libcam.client.so
+lib/libcam.device1.so
+lib/libcamdrv.so
+lib/libcameraanalyzer.so
+lib/libcameracustom.so
+lib/libcam.exif.so
+lib/libcam_mmp.so
+lib/libcam.paramsmgr.so
+lib/libcam_platform.so
+lib/libcam.utils.so
+lib/libcam_utils.so
+lib/libfeatureio.so
+lib/libimageio.so
+lib/libmatv_cust.so
+lib/libmmprofile.so
+lib/libmpo.so
+lib/libmpoencoder.so
+
+# Display
+lib/hw/hwcomposer.mt8135.so
+
+# Dolby
+vendor/etc/dolby/ds1-000F.xml
+vendor/etc/dolby/ds1-0012.xml
+
+# Firmware
+etc/firmware/mt6628_ant_m1.cfg
+etc/firmware/mt6628_patch_e1_hdr.bin
+etc/firmware/mt6628_patch_e2_0_hdr.bin
+etc/firmware/mt6628_patch_e2_1_hdr.bin
+etc/firmware/mt6630_ant_m1.cfg
+etc/firmware/mt6630_patch_e3_0_hdr.bin
+etc/firmware/mt6630_patch_e3_1_hdr.bin
+etc/firmware/WIFI_RAM_CODE
+etc/firmware/WIFI_RAM_CODE_E6
+etc/firmware/WIFI_RAM_CODE_MT6628
+etc/firmware/WIFI_RAM_CODE_MT6630
+etc/firmware/WMT.cfg
+vendor/firmware/maxtouch.20.cfg
+vendor/firmware/maxtouch.20.fw
+
+# Sensors
+lib/hw/sensors.mt8135.so
+lib/libinvensense_hal.so
+lib/libmllite.so
+lib/libmplmpu.so
