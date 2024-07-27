@@ -13,7 +13,7 @@ $(call inherit-product, device/amazon/ariel/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/cm/config/common_mini_tablet_wifionly.mk)
 
-PRODUCT_NAME := cm_ariel
+PRODUCT_NAME := lineage_ariel
 PRODUCT_DEVICE := ariel
 PRODUCT_MANUFACTURER := Amzn
 PRODUCT_BRAND := google
