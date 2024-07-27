@@ -37,14 +37,9 @@
 #include "init_amazon.h"
 
 void init_amazon_properties(int rev) {
-    char platform[PROP_VALUE_MAX];
     int rc;
 
     UNUSED(rev);
-
-    rc = property_get("ro.board.platform", platform);
-    if (!rc || !ISMATCH(platform, ANDROID_TARGET))
-        return;
 
     if (rev == 0x12) {
         property_set("ro.product.model", "Fire HD7");
