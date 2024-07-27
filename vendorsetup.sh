@@ -7,5 +7,5 @@
 #
 
 for var in eng user userdebug; do
-  add_lunch_combo cm_ariel-$var
+  add_lunch_combo lineage_ariel-$var
 done
