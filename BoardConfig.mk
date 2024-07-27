@@ -8,7 +8,7 @@ DEVICE_PATH := device/amazon/ariel
 
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_amazon
-TARGET_LIBINIT_DEFINES_FILE := $(DEVICE_PATH)/init/init_ariel.c
+TARGET_LIBINIT_DEFINES_FILE := $(DEVICE_PATH)/init/init_ariel.cpp
 
 # Platform
 TARGET_BOOTLOADER_BOARD_NAME := ariel
