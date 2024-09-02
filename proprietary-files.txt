@@ -55,6 +55,15 @@ etc/firmware/WMT.cfg
 vendor/firmware/maxtouch.20.cfg
 vendor/firmware/maxtouch.20.fw
 
+# NVRAM
+bin/nvram_daemon
+lib/libcustom_nvram.so
+lib/libfile_op.so
+lib/libnvram_sec.so
+lib/libnvram_platform.so
+lib/libnvramagentclient.so
+lib/libnvram_daemon_callback.so
+
 # Sensors
 lib/hw/sensors.mt8135.so
 lib/libinvensense_hal.so
