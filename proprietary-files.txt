@@ -1,3 +1,9 @@
+# Audio
+lib/hw/audio.primary.mt8135.so
+lib/libaudiocompensationfilter.so
+lib/libaudiocustparam.so
+lib/libsmartvolume.so
+
 # Bluetooth
 lib/libbt-vendor.so
 lib/libbluetoothem_mtk.so
