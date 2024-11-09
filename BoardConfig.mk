@@ -11,7 +11,7 @@ TARGET_INIT_VENDOR_LIB := libinit_amazon
 TARGET_LIBINIT_DEFINES_FILE := $(DEVICE_PATH)/init/init_ariel.cpp
 
 # Kernel
-TARGET_KERNEL_CONFIG := mt8135_ariel_defconfig
+TARGET_KERNEL_ADDITIONAL_CONFIG := ariel.config
 
 # Platform
 TARGET_BOOTLOADER_BOARD_NAME := ariel
