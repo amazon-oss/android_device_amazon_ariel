@@ -11,6 +11,10 @@ $(call inherit-product-if-exists, device/amazon/mt8135-common/mt8135-common.mk)
 PRODUCT_PACKAGES += \
     libinit_amazon
 
+# Rootdir
+PRODUCT_PACKAGES += \
+    init.sensors.rc
+
 # Due to multi-density builds, these are set by init
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.model ro.sf.lcd_density
 
