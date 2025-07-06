@@ -27,6 +27,7 @@
    IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+#include <iomanip>
 #include <stdlib.h>
 
 #include "vendor_init.h"
@@ -54,6 +55,6 @@ void init_amazon_properties(int rev) {
                      "/system/vendor/smartvolume/ariel/");
         property_set("ro.sf.lcd_density", "240");
     } else {
-        ERROR("Unknown CPU revision: %x\n", rev);
+        LOG(ERROR) << "Unknown CPU revision: 0x" << std::hex << rev;
     }
 }
