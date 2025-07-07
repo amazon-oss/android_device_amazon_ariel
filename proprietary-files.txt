@@ -71,7 +71,7 @@ lib/libnvramagentclient.so
 lib/libnvram_daemon_callback.so
 
 # Sensors
-lib/hw/sensors.mt8135.so
+lib/hw/sensors.mt8135.so:vendor/lib/libsensors.mt8135.so
 lib/libinvensense_hal.so
 lib/libmllite.so
 lib/libmplmpu.so
